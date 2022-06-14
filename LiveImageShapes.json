@@ -1,0 +1,69 @@
+{
+    "Shapes": [
+        {
+            "name": "shape_test",
+            "shape": 0,
+            "color": 1,
+            "display_name": 1,
+            "x": 362.5,
+            "y": 305.0,
+            "height": 125.0,
+            "width": 125.0,
+            "key": "Clip HES/MST 1 Test Hope It Works",
+            "image": "1",
+            "line_width": 5
+        },
+        {
+            "name": "dash_defect",
+            "shape": 0,
+            "color": 1,
+            "display_name": 1,
+            "x": 153.75,
+            "y": 203.75,
+            "height": 125.0,
+            "width": 125.0,
+            "key": "Clip HES/MST 2 Test",
+            "image": "1",
+            "line_width": 5
+        },
+        {
+            "name": "limited_label",
+            "shape": 0,
+            "color": 1,
+            "display_name": 1,
+            "x": 606.6666666666666,
+            "y": 266.0,
+            "height": 50.0,
+            "width": 83.33333333333333,
+            "key": "Clip MST 3",
+            "image": "2",
+            "line_width": 5
+        },
+        {
+            "name": "driver_vent",
+            "shape": 1,
+            "color": 1,
+            "display_name": 1,
+            "x": 53.333333333333336,
+            "y": 257.3333333333333,
+            "height": 100.0,
+            "width": 80.0,
+            "key": "Clip MST 3",
+            "image": "3",
+            "line_width": 5
+        },
+        {
+            "name": "shape_test",
+            "shape": 0,
+            "color": 1,
+            "display_name": 1,
+            "x": 900.0,
+            "y": 900.0,
+            "height": 750.0,
+            "width": 750.0,
+            "key": "Push Pin 1",
+            "image": "1",
+            "line_width": 5
+        }
+    ]
+}

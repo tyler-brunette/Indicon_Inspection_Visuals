@@ -1,0 +1,6308 @@
+{
+  "ResultRaw_Enabled": false,
+  "ResultArchive_Enabled": false,
+  "ResultRaw_Directroy": null,
+  "ResultArchive_Directory": null,
+  "ResultRaw_ImageType": null,
+  "ResultArchive_ImageType": null,
+  "Name": "System00",
+  "Identifier": "1728833",
+  "Index": 0,
+  "BuildData": {
+    "SERIALNUMBER": "1728833",
+    "UserID": "OPERATOR_ID",
+    "FGPN": "A29668058048W59"
+  },
+  "Result": "F",
+  "Timestamp_InspectionStart": "2022-04-28T14:45:36.1063252-05:00",
+  "Timestamp_InspectionEnd": "2022-04-28T14:45:42.7740536-05:00",
+  "Timestamp_LastSave": "2022-04-24T11:08:17.9158304-05:00",
+  "Timestamp_LastStart": "2022-04-24T11:08:36.7343292-05:00",
+  "Cameras": [
+    {
+      "LoadSettings": [
+        [
+          "TimeoutBool",
+          "True"
+        ],
+        [
+          "Timeout",
+          "10000"
+        ],
+        [
+          "TriggerMode",
+          "Manual"
+        ],
+        [
+          "Output Pixel Format",
+          "planarrgb8"
+        ],
+        [
+          "Transport Timeout",
+          "2000"
+        ],
+        [
+          "Packet Size",
+          "9000"
+        ],
+        [
+          "Latency Level",
+          "0"
+        ],
+        [
+          "GevSCPD",
+          "0"
+        ],
+        [
+          "GevMCRC",
+          "10"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "OffsetY",
+          "0"
+        ],
+        [
+          "Width",
+          "2590"
+        ],
+        [
+          "Height",
+          "1942"
+        ],
+        [
+          "Rotation",
+          "0"
+        ]
+      ],
+      "PrimeSettings": [
+        [
+          "BalanceRatioSelector",
+          "Red"
+        ],
+        [
+          "BalanceRatioRaw",
+          "117.645"
+        ],
+        [
+          "BalanceRatioSelector",
+          "Green"
+        ],
+        [
+          "BalanceRatioRaw",
+          "96"
+        ],
+        [
+          "BalanceRatioSelector",
+          "Blue"
+        ],
+        [
+          "BalanceRatioRaw",
+          "163"
+        ]
+      ],
+      "RunSettings": [
+        [
+          "Exposure",
+          "12"
+        ],
+        [
+          "Contrast",
+          "0.1"
+        ],
+        [
+          "Brightness",
+          "0"
+        ]
+      ],
+      "ImageLocations": [
+        {
+          "CameraIndex": 0,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "ID",
+          "ImageType": "Png",
+          "FileDirectoryName": "D:\\Images\\2022-04-28\\1728833",
+          "FileName": "2022-04-28T144542_FAIL_1728833_00-Left Midpanel.Png",
+          "FileFullName": "D:\\Images\\2022-04-28\\1728833\\2022-04-28T144542_FAIL_1728833_00-Left Midpanel.Png"
+        },
+        {
+          "CameraIndex": 0,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image0.Jpeg",
+          "FileFullName": "D:\\HMI\\Image0.Jpeg"
+        },
+        {
+          "CameraIndex": 0,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": true,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image0_Overlay.Jpeg",
+          "FileFullName": "D:\\HMI\\Image0_Overlay.Jpeg"
+        }
+      ],
+      "Inspections": [
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip HES/MST 1 Test"
+            ],
+            [
+              "Test",
+              "Hope It Works"
+            ]
+          ],
+          "Tools": [],
+          "Name": "MST-HES RHD Clip 1",
+          "Index": 0,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip HES/MST 2 Test"
+            ]
+          ],
+          "Tools": [],
+          "Name": "MST-HES RHD Clip 2",
+          "Index": 1,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0700,4803,8703,8903,9303,9603"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip MST 3"
+            ]
+          ],
+          "Tools": [],
+          "Name": "MST RHD Clip 3",
+          "Index": 2,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip HES/MST 4"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": 0.0,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.97281426191329956,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 1749.7513424452047,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 565.64351462999684,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.0033167299592858,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "LHD Clip 4",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "MST-HES LHD Clip 4",
+          "Index": 3,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0800,0803,4903,5804,5904,6004"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "HES Curve and Ridge"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Histogram",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_Histogram",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "HES Curve - LHD",
+          "Index": 4,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06005F72,08005F72,40035F72,58045F72,47037R47,49037R47,51037R47,59047R47,06008W59,08008W59,40038W59,58048W59,06009J38,08009J38,40039J38,58049J38"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Temp Sensor"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": 0.0,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.63798099756240845,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 1614.2936034879096,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 1304.6291740940549,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.0000304887062452,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Light 2",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "f",
+              "GroupResult": "P",
+              "Groups": "\u0000",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            },
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": 0.0,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.77989590167999268,
+                "ScoreMin": 0.7,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 1616.5337178407208,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 1295.2245836009852,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.000030518509476,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Dark 2",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": "P",
+              "Groups": "\u0000",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Group",
+              "Index": 2,
+              "ToolType": "Indicon.IndToolProcess_Group",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Vidi Color Black",
+              "Index": 3,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Temp Sensor - LHD - Black",
+          "Index": 5,
+          "Ran": true,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06001D51,08001D51,40031D51,58041D51,06001D67,08001D67,40031D67,58041D67,08035F80,60045F80,91035F80,95035F80"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Temp Sensor"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Temp Sensor - LHD - Digital White",
+          "Index": 6,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06007R47,08007R47,40037R47,58047R47"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Temp Sensor"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Temp Sensor - LHD - MBeige",
+          "Index": 7,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0600,4003,4703,5103,9103,9503"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "HES Curve and Ridge"
+            ]
+          ],
+          "Tools": [],
+          "Name": "MST NO Curve - LHD",
+          "Index": 8,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0800,0803,4903,5804,5904,6004"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Cluster Hood"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Histogram",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_Histogram",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "HES Cluster Hood - LHD",
+          "Index": 9,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06005F72,08005F72,40035F72,58045F72,06008W59,08008W59,40038W59,58048W59,06009J38,08009J38,40039J38,58049J38"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Midpanel Left"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "LHD Midpanel Color",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Midpanel Material - LHD - Black",
+          "Index": 10,
+          "Ran": true,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06001D51,08001D51,40031D51,58041D51,06001D67,08001D67,40031D67,58041D67,08035F80,60045F80,91035F80,95035F80"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Midpanel Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Midpanel Material - LHD - Digital White",
+          "Index": 11,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "47037R47,49037R47,51037R47,59047R47"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Midpanel Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Midpanel Material - LHD - Dynamica",
+          "Index": 12,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06007R47,08007R47,40037R47,58047R47"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Midpanel Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Midpanel Material - LHD - Mbeige",
+          "Index": 13,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06005F72,08005F72,40035F72,58045F72,47037R47,49037R47,51037R47,59047R47,06008W59,08008W59,40038W59,58048W59,06009J38,08009J38,40039J38,58049J38"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Lower Left"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Fixture",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Color Match",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_ColorMatch",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Lower Color - LHD - Black",
+          "Index": 14,
+          "Ran": true,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06001D51,08001D51,40031D51,58041D51,06001D67,08001D67,40031D67,58041D67,08035F80,60045F80,91035F80,95035F80"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Lower Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Lower Color - LHD - Digital White",
+          "Index": 15,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06007R47,08007R47,40037R47,58047R47"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Lower Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Lower Color - LHD - Mbeige",
+          "Index": 16,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06005F72,08005F72,40035F72,58045F72,47037R47,49037R47,51037R47,59047R47,06008W59,08008W59,40038W59,58048W59,06009J38,08009J38,40039J38,58049J38"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Steering Column Frame"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Vidi LHD SCF - Black",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "SCF - LHD - Black",
+          "Index": 17,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06001D51,08001D51,40031D51,58041D51,06001D67,08001D67,40031D67,58041D67,08035F80,60045F80,91035F80,95035F80"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Steering Column Frame"
+            ]
+          ],
+          "Tools": [],
+          "Name": "SCF - LHD - Digital White",
+          "Index": 18,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06007R47,08007R47,40037R47,58047R47"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Steering Column Frame"
+            ]
+          ],
+          "Tools": [],
+          "Name": "SCF - LHD - Mbeige",
+          "Index": 19,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0800,0803,4903,5804,5904,6004"
+            ],
+            [
+              "FGPN 8-15",
+              "*7R47,*9J38"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Cluster Hood"
+            ]
+          ],
+          "Tools": [],
+          "Name": "HES Cluster Hood - LHD - Gray",
+          "Index": 20,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0800,0803,4903,5804,5904,6004"
+            ],
+            [
+              "FGPN 8-15",
+              "*1D67,*8W59"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Cluster Hood"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Vidi LHD Cluster Hood",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "HES Cluster Hood - LHD - Baulobraun",
+          "Index": 21,
+          "Ran": true,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0800,0803,4903,5804,5904,6004"
+            ],
+            [
+              "FGPN 8-15",
+              "*5F80"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Cluster Hood"
+            ]
+          ],
+          "Tools": [],
+          "Name": "HES Cluster Hood - LHD - Blue Nappa",
+          "Index": 22,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0800,0803,4903,5804,5904,6004"
+            ],
+            [
+              "FGPN 8-15",
+              "*1D51,*5F72"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Cluster Hood"
+            ]
+          ],
+          "Tools": [],
+          "Name": "HES Cluster Hood - LHD - Blue Micro",
+          "Index": 23,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Glip Glove Box 2"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Clip Glove Box",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "LHD Clip Glove Box",
+          "Index": 24,
+          "Ran": true,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip Glove Box 1"
+            ]
+          ],
+          "Tools": [],
+          "Name": "RHD Clip Glove Box",
+          "Index": 25,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        }
+      ],
+      "Name": "00-Left Midpanel",
+      "Index": 0,
+      "Passed": false,
+      "Result": "F",
+      "Bypassed": false,
+      "HasError": false,
+      "Trigger": "Normal",
+      "TriggerValue": true,
+      "Samples": [
+        {
+          "Tools": [
+            "LHD Clip Glove Box",
+            "LHD Cluster Hood",
+            "LHD Midpanel Color",
+            "LHD Midpanel Flaw Unsupervised",
+            "LHD SCF",
+            "LHD Temp Sensor",
+            "Locate",
+            "RHD Clip Glove Box"
+          ],
+          "RuntimeWorkspaceName": "IAC_IP_00-Left Midpanel_2022-02-03",
+          "Name": "default"
+        }
+      ]
+    },
+    {
+      "LoadSettings": [
+        [
+          "TimeoutBool",
+          "True"
+        ],
+        [
+          "Timeout",
+          "10000"
+        ],
+        [
+          "TriggerMode",
+          "Manual"
+        ],
+        [
+          "Output Pixel Format",
+          "planarrgb8"
+        ],
+        [
+          "Transport Timeout",
+          "2000"
+        ],
+        [
+          "Packet Size",
+          "9000"
+        ],
+        [
+          "Latency Level",
+          "0"
+        ],
+        [
+          "GevSCPD",
+          "0"
+        ],
+        [
+          "GevMCRC",
+          "10"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "OffsetY",
+          "0"
+        ],
+        [
+          "Width",
+          "2590"
+        ],
+        [
+          "Height",
+          "1942"
+        ],
+        [
+          "Rotation",
+          "0"
+        ]
+      ],
+      "PrimeSettings": [
+        [
+          "BalanceRatioSelector",
+          "Red"
+        ],
+        [
+          "BalanceRatioRaw",
+          "125.829"
+        ],
+        [
+          "BalanceRatioSelector",
+          "Green"
+        ],
+        [
+          "BalanceRatioRaw",
+          "96"
+        ],
+        [
+          "BalanceRatioSelector",
+          "Blue"
+        ],
+        [
+          "BalanceRatioRaw",
+          "175"
+        ]
+      ],
+      "RunSettings": [
+        [
+          "Exposure",
+          "12"
+        ],
+        [
+          "Contrast",
+          "0.1"
+        ],
+        [
+          "Brightness",
+          "0"
+        ]
+      ],
+      "ImageLocations": [
+        {
+          "CameraIndex": 1,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "ID",
+          "ImageType": "Png",
+          "FileDirectoryName": "D:\\Images\\2022-04-28\\1728833",
+          "FileName": "2022-04-28T144542_FAIL_1728833_01-Right Midpanel.Png",
+          "FileFullName": "D:\\Images\\2022-04-28\\1728833\\2022-04-28T144542_FAIL_1728833_01-Right Midpanel.Png"
+        },
+        {
+          "CameraIndex": 1,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image1.Jpeg",
+          "FileFullName": "D:\\HMI\\Image1.Jpeg"
+        },
+        {
+          "CameraIndex": 1,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": true,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image1_Overlay.Jpeg",
+          "FileFullName": "D:\\HMI\\Image1_Overlay.Jpeg"
+        }
+      ],
+      "Inspections": [
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip HES/MST 1"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -0.87263634992291017,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.84719395637512207,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 1911.2804312352321,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 584.75278628484318,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 0.87467556914983924,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "LHD Clip 1",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "MST-HES LHD Clip 1",
+          "Index": 0,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip HES/MST 2"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": 0.0,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.93082231283187866,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 1411.1979248652126,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 572.44661855821062,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.0,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "LHD Clip 2",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "MST-HES LHD Clip 2",
+          "Index": 1,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0600,4003,4703,5103,9103,9503"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip MST 3"
+            ]
+          ],
+          "Tools": [],
+          "Name": "MST LHD Clip 3",
+          "Index": 2,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip HES/MST 4"
+            ]
+          ],
+          "Tools": [],
+          "Name": "MST-HES RHD Clip 4",
+          "Index": 3,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Temp Sensor"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Temp Sensor RHD",
+          "Index": 4,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0900,0903,5003,6104,6204,6304"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "HES Curve and Ridge"
+            ]
+          ],
+          "Tools": [],
+          "Name": "HES Curve - RHD",
+          "Index": 5,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0700,4803,8703,8903,9303,9603"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "HES Curve and Ridge"
+            ]
+          ],
+          "Tools": [],
+          "Name": "MST NO Curve - RHD",
+          "Index": 6,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0900,0903,5003,6104,6204,6304"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Cluster Hood"
+            ]
+          ],
+          "Tools": [],
+          "Name": "HES Cluster Hood - LHD",
+          "Index": 7,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06005F72,08005F72,40035F72,58045F72,06008W59,08008W59,40038W59,58048W59,06009J38,08009J38,40039J38,58049J38"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Midpanel Right"
+            ],
+            [
+              "Result",
+              "No Inspection"
+            ],
+            [
+              "Result",
+              "No Inspection"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Vidi Midpanel",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Midpanel Material - LHD - Black",
+          "Index": 8,
+          "Ran": true,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06001D51,08001D51,40031D51,58041D51,06001D67,08001D67,40031D67,58041D67,08035F80,60045F80,91035F80,95035F80"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Midpanel Right"
+            ],
+            [
+              "Result",
+              "No Inspection"
+            ],
+            [
+              "Result",
+              "No Inspection"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Midpanel Material - LHD - Digital White",
+          "Index": 9,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "47037R47,49037R47,51037R47,59047R47"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Midpanel Right"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Midpanel Material - LHD - Dynamica",
+          "Index": 10,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06007R47,08007R47,40037R47,58047R47"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Midpanel Right"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Midpanel Material - LHD - Mbeige",
+          "Index": 11,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06005F72,08005F72,40035F72,58045F72,47037R47,49037R47,51037R47,59047R47,06008W59,08008W59,40038W59,58048W59,06009J38,08009J38,40039J38,58049J38"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Lower Right"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Fixture",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Color Match",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_ColorMatch",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Lower Color - LHD - Black",
+          "Index": 12,
+          "Ran": true,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06001D51,08001D51,40031D51,58041D51,06001D67,08001D67,40031D67,58041D67,08035F80,60045F80,91035F80,95035F80"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Lower Right"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Lower Color - LHD - Digital White",
+          "Index": 13,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06007R47,08007R47,40037R47,58047R47"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Lower Right"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Lower Color - LHD - Mbeige",
+          "Index": 14,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Glip Glove Box 2"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Clip Glove Box",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "LHD Clip Glove Box",
+          "Index": 15,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip Glove Box 1"
+            ]
+          ],
+          "Tools": [],
+          "Name": "RHD Clip Glove Box",
+          "Index": 16,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        }
+      ],
+      "Name": "01-Right Midpanel",
+      "Index": 1,
+      "Passed": false,
+      "Result": "F",
+      "Bypassed": false,
+      "HasError": false,
+      "Trigger": "Normal",
+      "TriggerValue": true,
+      "Samples": [
+        {
+          "Tools": [
+            "LHD Clip Glove Box",
+            "LHD Midfield",
+            "Locate",
+            "RHD Clip Glove Box"
+          ],
+          "RuntimeWorkspaceName": "IAC_IP_01-Right Midpanel_2022-02-03",
+          "Name": "default"
+        }
+      ]
+    },
+    {
+      "LoadSettings": [
+        [
+          "TimeoutBool",
+          "True"
+        ],
+        [
+          "Timeout",
+          "10000"
+        ],
+        [
+          "TriggerMode",
+          "Manual"
+        ],
+        [
+          "Output Pixel Format",
+          "planarrgb8"
+        ],
+        [
+          "Transport Timeout",
+          "2000"
+        ],
+        [
+          "Packet Size",
+          "9000"
+        ],
+        [
+          "Latency Level",
+          "0"
+        ],
+        [
+          "GevSCPD",
+          "0"
+        ],
+        [
+          "GevMCRC",
+          "10"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "OffsetY",
+          "0"
+        ],
+        [
+          "Width",
+          "2590"
+        ],
+        [
+          "Height",
+          "1942"
+        ],
+        [
+          "Rotation",
+          "180"
+        ]
+      ],
+      "PrimeSettings": [
+        [
+          "BalanceRatioSelector",
+          "Red"
+        ],
+        [
+          "BalanceRatioRaw",
+          "125.829"
+        ],
+        [
+          "BalanceRatioSelector",
+          "Green"
+        ],
+        [
+          "BalanceRatioRaw",
+          "96"
+        ],
+        [
+          "BalanceRatioSelector",
+          "Blue"
+        ],
+        [
+          "BalanceRatioRaw",
+          "174"
+        ]
+      ],
+      "RunSettings": [
+        [
+          "Exposure",
+          "10"
+        ],
+        [
+          "Contrast",
+          "0.1"
+        ],
+        [
+          "Brightness",
+          "0"
+        ]
+      ],
+      "ImageLocations": [
+        {
+          "CameraIndex": 2,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "ID",
+          "ImageType": "Png",
+          "FileDirectoryName": "D:\\Images\\2022-04-28\\1728833",
+          "FileName": "2022-04-28T144542_FAIL_1728833_02-Left Topper A Side.Png",
+          "FileFullName": "D:\\Images\\2022-04-28\\1728833\\2022-04-28T144542_FAIL_1728833_02-Left Topper A Side.Png"
+        },
+        {
+          "CameraIndex": 2,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image2.Jpeg",
+          "FileFullName": "D:\\HMI\\Image2.Jpeg"
+        },
+        {
+          "CameraIndex": 2,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": true,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image2_Overlay.Jpeg",
+          "FileFullName": "D:\\HMI\\Image2_Overlay.Jpeg"
+        }
+      ],
+      "Inspections": [
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*1D51,*5F72,*5F80"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Demister Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Demister - Blue",
+          "Index": 0,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*1D67,*8W59"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Demister Left"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -5.3391633937141778,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.92208993434906006,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 491.33244456477655,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 1374.3037464502474,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 0.90583592631456245,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Presence LHD",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Color Check",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_ColorMatch",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Demister - Brown",
+          "Index": 1,
+          "Ran": true,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*7R47,*9J38"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Demister Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Demister - Gray",
+          "Index": 2,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*1D51,*5F72,*5F80"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Demister Center Left"
+            ],
+            [
+              "..",
+              "No Inspection"
+            ],
+            [
+              "",
+              "No Inspection"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Demister Center - Blue",
+          "Index": 3,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*1D67,*8W59"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Demister Center Left"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": 0.0,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.898522138595581,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 2167.1405227182136,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 495.5546524891497,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 0.94733326066408374,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Presence",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Color Match",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_ColorMatch",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Demister Center - Brown",
+          "Index": 4,
+          "Ran": true,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*7R47,*9J38"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Demister Center Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Demister Center - Gray",
+          "Index": 5,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Topper QR Code Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Topper QR Code Left",
+          "Index": 6,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Topper QR Code Left"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -99999.0,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.0,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": -99999.0,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": -99999.0,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": -1.0,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "QR code",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": false,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Vidi Code",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": false,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Topper QR Code Left NOT Required",
+          "Index": 7,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "4003,5103,5804,5904,6004,9103"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "HUD"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": 0.0,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.93888235092163086,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 785.67790187067419,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 561.89188128587,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.0,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Wheel",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "HUD - LHD",
+          "Index": 8,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4703,4903,9503"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "HUD"
+            ]
+          ],
+          "Tools": [],
+          "Name": "NOT HUD - LHD",
+          "Index": 9,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Grommet Speaker Grille Left"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Vidi Locate Left",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Grommet Left",
+          "Index": 10,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Grommet Speaker Grille Right"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Vidi Locate Right",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Grommet Right",
+          "Index": 11,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Grommet Speaker Grille Center"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Vidi Locate Center",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Grommet Center",
+          "Index": 12,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Toll Cover"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Cover0123",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Toll Cover",
+          "Index": 13,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*7R47,*9J38"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Topper Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Topper Material - Left - Gray",
+          "Index": 14,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*1D67,*8W59"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Topper Left"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Topper Color",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Topper Material - Left - Baulobraun",
+          "Index": 15,
+          "Ran": true,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*5F80"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Topper Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Topper Material - Left - Blue Nappa",
+          "Index": 16,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*1D51,*5F72"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Topper Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Topper Material - Left - Blue Micro",
+          "Index": 17,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*1D67,*8W59"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Stitching Topper Left"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Topper Stitching",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Topper Thread - Left - Baulobraun",
+          "Index": 18,
+          "Ran": true,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*1D51,*5F72"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Stitching Topper Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Topper Thread - Left - Blue Micro",
+          "Index": 19,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*5F80"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Stitching Topper Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Topper Thread - Left - Blue Nappa",
+          "Index": 20,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "06007R47,07007R47,08007R47,09007R47,40037R47,58047R47,61047R47,87037R47,06009J38,07009J38,08009J38,09009J38,40039J38,58049J38,61049J38,87039J38"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Stitching Topper Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Topper Thread - Left - Gray Micro",
+          "Index": 21,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "47037R47,48037R47,49037R47,50037R47,51037R47,59047R47,62047R47,89037R47"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Stitching Topper Left"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Topper Thread - Left - Gray Red-Vif",
+          "Index": 22,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        }
+      ],
+      "Name": "02-Left Topper A Side",
+      "Index": 2,
+      "Passed": false,
+      "Result": "F",
+      "Bypassed": false,
+      "HasError": false,
+      "Trigger": "Normal",
+      "TriggerValue": true,
+      "Samples": [
+        {
+          "Tools": [
+            "Classify",
+            "Locate Right"
+          ],
+          "RuntimeWorkspaceName": "IAC_IP_02-Left Topper A Side_2022-02-02",
+          "Name": "default"
+        }
+      ]
+    },
+    {
+      "LoadSettings": [
+        [
+          "TimeoutBool",
+          "True"
+        ],
+        [
+          "Timeout",
+          "10000"
+        ],
+        [
+          "TriggerMode",
+          "Manual"
+        ],
+        [
+          "Output Pixel Format",
+          "planarrgb8"
+        ],
+        [
+          "Transport Timeout",
+          "2000"
+        ],
+        [
+          "Packet Size",
+          "9000"
+        ],
+        [
+          "Latency Level",
+          "0"
+        ],
+        [
+          "GevSCPD",
+          "0"
+        ],
+        [
+          "GevMCRC",
+          "10"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "OffsetY",
+          "0"
+        ],
+        [
+          "Width",
+          "2590"
+        ],
+        [
+          "Height",
+          "1942"
+        ],
+        [
+          "Rotation",
+          "180"
+        ]
+      ],
+      "PrimeSettings": [
+        [
+          "BalanceRatioSelector",
+          "Red"
+        ],
+        [
+          "BalanceRatioRaw",
+          "118.668"
+        ],
+        [
+          "BalanceRatioSelector",
+          "Green"
+        ],
+        [
+          "BalanceRatioRaw",
+          "96"
+        ],
+        [
+          "BalanceRatioSelector",
+          "Blue"
+        ],
+        [
+          "BalanceRatioRaw",
+          "169"
+        ]
+      ],
+      "RunSettings": [
+        [
+          "Exposure",
+          "10"
+        ],
+        [
+          "Contrast",
+          "0.1"
+        ],
+        [
+          "Brightness",
+          "0"
+        ]
+      ],
+      "ImageLocations": [
+        {
+          "CameraIndex": 3,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "ID",
+          "ImageType": "Png",
+          "FileDirectoryName": "D:\\Images\\2022-04-28\\1728833",
+          "FileName": "2022-04-28T144542_FAIL_1728833_03-RightTopper A Side.Png",
+          "FileFullName": "D:\\Images\\2022-04-28\\1728833\\2022-04-28T144542_FAIL_1728833_03-RightTopper A Side.Png"
+        },
+        {
+          "CameraIndex": 3,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image3.Jpeg",
+          "FileFullName": "D:\\HMI\\Image3.Jpeg"
+        },
+        {
+          "CameraIndex": 3,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": true,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image3_Overlay.Jpeg",
+          "FileFullName": "D:\\HMI\\Image3_Overlay.Jpeg"
+        }
+      ],
+      "Inspections": [
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Topper QR Code Right"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -99999.0,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.0,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": -99999.0,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": -99999.0,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": -1.0,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Square Pattern",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "f",
+              "GroupResult": "P",
+              "Groups": "\u0000",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            },
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": 1.170202593588386,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.908448338508606,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 435.29484677681359,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 1216.2266570706572,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 0.99978851826403892,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Square Pattern Dark",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": "P",
+              "Groups": "\u0000",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Vidi QR Locate",
+              "Index": 2,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "f",
+              "GroupResult": "P",
+              "Groups": "\u0000",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            },
+            {
+              "Data": {},
+              "Name": "Group Tool 1",
+              "Index": 3,
+              "ToolType": "Indicon.IndToolProcess_Group",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Topper QR Code Right",
+          "Index": 0,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Topper QR Code Right"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Topper QR Code Right NOT Required",
+          "Index": 1,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Demister Center Right"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": 0.09829502256281801,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.72951608896255493,
+                "ScoreMin": 0.55,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 310.60760725425058,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 542.43708227311924,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.001413814426271,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Presence",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Demister Center Right",
+          "Index": 2,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*1D67,*8W59"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Demister Right"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": 0.16802134076341682,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.99604803323745728,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 2083.2099672886407,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 1280.6245464609058,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 0.97316808650762843,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Presence",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": "P",
+              "Groups": "\u0000",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -6.3705202561043288,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.86670041084289551,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 2060.611619823218,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 1262.9976208729724,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.1356581754216111,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Presence - RHD - HUD",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": "P",
+              "Groups": "\u0000",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Group 1",
+              "Index": 2,
+              "ToolType": "Indicon.IndToolProcess_Group",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Color Match 1",
+              "Index": 3,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_ColorMatch",
+              "Result": "F",
+              "GroupResult": "F",
+              "Groups": "\u0000",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": false,
+              "Passed": false
+            },
+            {
+              "Data": {},
+              "Name": "Color Match 2",
+              "Index": 4,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_ColorMatch",
+              "Result": "F",
+              "GroupResult": "F",
+              "Groups": "\u0000",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": false,
+              "Passed": false
+            },
+            {
+              "Data": {},
+              "Name": "Group 2",
+              "Index": 5,
+              "ToolType": "Indicon.IndToolProcess_Group",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Demister Right - Brown",
+          "Index": 3,
+          "Ran": true,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*1D51,*5F72,*5F80"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Demister Right"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Demister Right - Blue",
+          "Index": 4,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "*"
+            ],
+            [
+              "FGPN 8-15",
+              "*7R47,*9J38"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Demister Right"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Demister Right - Gray",
+          "Index": 5,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "6104,6204,6304,8703,8903,9303"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "HUD"
+            ]
+          ],
+          "Tools": [],
+          "Name": "HUD - RHD",
+          "Index": 6,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,9603"
+            ],
+            [
+              "FGPN 8-15",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "HUD"
+            ]
+          ],
+          "Tools": [],
+          "Name": "NOT HUD- RHD",
+          "Index": 7,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ],
+            [
+              "FGPN 8-15",
+              "*1D67,*8W59"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Airbag Logo"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Fixture",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            },
+            {
+              "Data": {},
+              "Name": "Color Check",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_ColorMatch",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Airbag Logo - LHD - Brown",
+          "Index": 8,
+          "Ran": true,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "F"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ],
+            [
+              "FGPN 8-15",
+              "*1D51,*5F72,*5F80"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Airbag Logo"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Airbag Logo - LHD - Blue",
+          "Index": 9,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ],
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ],
+            [
+              "FGPN 8-15",
+              "*7R47,*9J38"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Airbag Logo"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Airbag Logo - LHD - Gray",
+          "Index": 10,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        }
+      ],
+      "Name": "03-RightTopper A Side",
+      "Index": 3,
+      "Passed": false,
+      "Result": "F",
+      "Bypassed": false,
+      "HasError": false,
+      "Trigger": "Normal",
+      "TriggerValue": true,
+      "Samples": [
+        {
+          "Tools": [
+            "Locate"
+          ],
+          "RuntimeWorkspaceName": "IAC_IP_03-RightTopper A Side",
+          "Name": "default"
+        }
+      ]
+    },
+    {
+      "LoadSettings": [
+        [
+          "TimeoutBool",
+          "True"
+        ],
+        [
+          "Timeout",
+          "10000"
+        ],
+        [
+          "TriggerMode",
+          "Manual"
+        ],
+        [
+          "Output Pixel Format",
+          "grey8"
+        ],
+        [
+          "Transport Timeout",
+          "2000"
+        ],
+        [
+          "Packet Size",
+          "9000"
+        ],
+        [
+          "Latency Level",
+          "0"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "GevSCPD",
+          "0"
+        ],
+        [
+          "GevMCRC",
+          "10"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "OffsetY",
+          "0"
+        ],
+        [
+          "Width",
+          "2448"
+        ],
+        [
+          "Height",
+          "2048"
+        ],
+        [
+          "Rotation",
+          "0"
+        ]
+      ],
+      "PrimeSettings": [],
+      "RunSettings": [
+        [
+          "Exposure",
+          "2"
+        ],
+        [
+          "Contrast",
+          "0.1"
+        ],
+        [
+          "Brightness",
+          "0"
+        ]
+      ],
+      "ImageLocations": [
+        {
+          "CameraIndex": 4,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "ID",
+          "ImageType": "Png",
+          "FileDirectoryName": "D:\\Images\\2022-04-28\\1728833",
+          "FileName": "2022-04-28T144542_PASS_1728833_04-Left Topper B Side.Png",
+          "FileFullName": "D:\\Images\\2022-04-28\\1728833\\2022-04-28T144542_PASS_1728833_04-Left Topper B Side.Png"
+        },
+        {
+          "CameraIndex": 4,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image4.Jpeg",
+          "FileFullName": "D:\\HMI\\Image4.Jpeg"
+        },
+        {
+          "CameraIndex": 4,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": true,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image4_Overlay.Jpeg",
+          "FileFullName": "D:\\HMI\\Image4_Overlay.Jpeg"
+        }
+      ],
+      "Inspections": [
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Scrim 1"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Pab - RHD",
+          "Index": 0,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip Glove Box 3"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Glove Box Clip 3 - RHD",
+          "Index": 1,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip Glove Box 4"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Glove Box Clip 4 - RHD",
+          "Index": 2,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip Glove Box 5"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Glove Box Clip 5 - RHD",
+          "Index": 3,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Pushnut PAB Stud 1"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Pab Pushnut 1 - RHD",
+          "Index": 4,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Pushnut PAB Stud 2"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Pab Pushnut 2 - RHD",
+          "Index": 5,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Pushnut PAB Stud 3"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Pab Pushnut 3 - RHD",
+          "Index": 6,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0700,0900,0903,4803,5003,6104,6204,6304,8703,8903,9303,9603"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Pushnut PAB Stud 4"
+            ]
+          ],
+          "Tools": [],
+          "Name": "Pab Pushnut 4 - RHD",
+          "Index": 7,
+          "Ran": false,
+          "Passed": false,
+          "Debug": false,
+          "Bypass": false,
+          "Result": " "
+        }
+      ],
+      "Name": "04-Left Topper B Side",
+      "Index": 4,
+      "Passed": true,
+      "Result": " ",
+      "Bypassed": false,
+      "HasError": false,
+      "Trigger": "Normal",
+      "TriggerValue": true,
+      "Samples": []
+    },
+    {
+      "LoadSettings": [
+        [
+          "TimeoutBool",
+          "True"
+        ],
+        [
+          "Timeout",
+          "10000"
+        ],
+        [
+          "TriggerMode",
+          "Manual"
+        ],
+        [
+          "Output Pixel Format",
+          "grey8"
+        ],
+        [
+          "Transport Timeout",
+          "2000"
+        ],
+        [
+          "Packet Size",
+          "9000"
+        ],
+        [
+          "Latency Level",
+          "0"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "GevSCPD",
+          "0"
+        ],
+        [
+          "GevMCRC",
+          "10"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "OffsetY",
+          "0"
+        ],
+        [
+          "Width",
+          "2448"
+        ],
+        [
+          "Height",
+          "2048"
+        ],
+        [
+          "Rotation",
+          "0"
+        ]
+      ],
+      "PrimeSettings": [],
+      "RunSettings": [
+        [
+          "Exposure",
+          "2"
+        ],
+        [
+          "Contrast",
+          "0.1"
+        ],
+        [
+          "Brightness",
+          "0"
+        ]
+      ],
+      "ImageLocations": [
+        {
+          "CameraIndex": 5,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "ID",
+          "ImageType": "Png",
+          "FileDirectoryName": "D:\\Images\\2022-04-28\\1728833",
+          "FileName": "2022-04-28T144542_PASS_1728833_05-Right Topper B Side.Png",
+          "FileFullName": "D:\\Images\\2022-04-28\\1728833\\2022-04-28T144542_PASS_1728833_05-Right Topper B Side.Png"
+        },
+        {
+          "CameraIndex": 5,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image5.Jpeg",
+          "FileFullName": "D:\\HMI\\Image5.Jpeg"
+        },
+        {
+          "CameraIndex": 5,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": true,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image5_Overlay.Jpeg",
+          "FileFullName": "D:\\HMI\\Image5_Overlay.Jpeg"
+        }
+      ],
+      "Inspections": [
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Scrim 1"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": 0.0,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.93307340145111084,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 1396.9016103426973,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 862.594640545085,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.0000304887062452,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Pab Upper Bar",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": 0.0,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.98507112264633179,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 1389.216818251665,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 979.26720851426592,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.0000304887062452,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Pab Mid Bar",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -0.055287468474184656,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.999969482421875,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 1405.2236283019197,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 1156.6801968933414,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.0000903331098798,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Pab Lower Bar",
+              "Index": 2,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Pab Lower Left",
+              "Index": 3,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_Histogram",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Pab Lower Right",
+              "Index": 4,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_Histogram",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Pab - LHD",
+          "Index": 0,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip Glove Box 3"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": 2.115431524782438,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.97364461421966553,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 2042.6137272416406,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 303.11620708816133,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.0000631525364194,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Clip",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Glove Box Clip 3 - LHD",
+          "Index": 1,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip Glove Box 4"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -0.19952093969191859,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.999969482421875,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 1321.8880512435423,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 328.71009595256106,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 0.99570087166172527,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Clip",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Glove Box Clip 4 - LHD",
+          "Index": 2,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip Glove Box 5"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -0.69110185179439532,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.99631983041763306,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 951.90031006440711,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 338.61240470483369,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 0.99859232993820923,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Clip",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Glove Box Clip 5 - LHD",
+          "Index": 3,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Pushnut PAB Stud 1"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -0.067232263071377973,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.927099883556366,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 1404.7494458223991,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 1157.665907606035,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.0020400170670654,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Pab Fixture",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Nut Histogram",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_Histogram",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Pab - Pushnut 1 - LHD",
+          "Index": 4,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Pushnut PAB Stud 2"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -0.067232263071377973,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.927099883556366,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 1404.7494458223991,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 1157.665907606035,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.0020400170670654,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Pab Fixture",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Nut Histogram",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_Histogram",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Pab - Pushnut 2 - LHD",
+          "Index": 5,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Pushnut PAB Stud 3"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -0.067232263071377973,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.927099883556366,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 1404.7494458223991,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 1157.665907606035,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.0020400170670654,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Pab Fixture",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Nut Histogram",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_Histogram",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Pab - Pushnut 3 - LHD",
+          "Index": 6,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Pushnut PAB Stud 4"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -0.067232263071377973,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.927099883556366,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 1404.7494458223991,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 1157.665907606035,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.0020400170670654,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Pab Fixture",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Nut Histogram",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_Histogram",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Pab - Pushnut 4 - LHD",
+          "Index": 7,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        }
+      ],
+      "Name": "05-Right Topper B Side",
+      "Index": 5,
+      "Passed": true,
+      "Result": "P",
+      "Bypassed": false,
+      "HasError": false,
+      "Trigger": "Normal",
+      "TriggerValue": true,
+      "Samples": []
+    },
+    {
+      "LoadSettings": [
+        [
+          "TimeoutBool",
+          "True"
+        ],
+        [
+          "Timeout",
+          "10000"
+        ],
+        [
+          "TriggerMode",
+          "Manual"
+        ],
+        [
+          "Output Pixel Format",
+          "grey8"
+        ],
+        [
+          "Transport Timeout",
+          "2000"
+        ],
+        [
+          "Packet Size",
+          "9000"
+        ],
+        [
+          "Latency Level",
+          "0"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "GevSCPD",
+          "0"
+        ],
+        [
+          "GevMCRC",
+          "10"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "OffsetY",
+          "0"
+        ],
+        [
+          "Width",
+          "2448"
+        ],
+        [
+          "Height",
+          "2048"
+        ],
+        [
+          "Rotation",
+          "0"
+        ]
+      ],
+      "PrimeSettings": [],
+      "RunSettings": [
+        [
+          "Exposure",
+          "10"
+        ],
+        [
+          "Contrast",
+          "0.1"
+        ],
+        [
+          "Brightness",
+          "0"
+        ]
+      ],
+      "ImageLocations": [
+        {
+          "CameraIndex": 6,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "ID",
+          "ImageType": "Png",
+          "FileDirectoryName": "D:\\Images\\2022-04-28\\1728833",
+          "FileName": "2022-04-28T144542_PASS_1728833_06-Right Lower B Side.Png",
+          "FileFullName": "D:\\Images\\2022-04-28\\1728833\\2022-04-28T144542_PASS_1728833_06-Right Lower B Side.Png"
+        },
+        {
+          "CameraIndex": 6,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image6.Jpeg",
+          "FileFullName": "D:\\HMI\\Image6.Jpeg"
+        },
+        {
+          "CameraIndex": 6,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": true,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image6_Overlay.Jpeg",
+          "FileFullName": "D:\\HMI\\Image6_Overlay.Jpeg"
+        }
+      ],
+      "Inspections": [
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "No Inspection"
+            ],
+            [
+              "..",
+              "No Inspection"
+            ],
+            [
+              "",
+              "No Inspection"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -99999.0,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.0,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": -99999.0,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": -99999.0,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": -1.0,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "PatMax Align Tool 1",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Temp",
+          "Index": 0,
+          "Ran": true,
+          "Passed": false,
+          "Debug": true,
+          "Bypass": false,
+          "Result": "f"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "No Inspection"
+            ],
+            [
+              "..",
+              "No Inspection"
+            ],
+            [
+              "",
+              "No Inspection"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -99999.0,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.0,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": -99999.0,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": -99999.0,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": -1.0,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "PatMax Align Tool 1",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Temp GB 2",
+          "Index": 1,
+          "Ran": true,
+          "Passed": false,
+          "Debug": true,
+          "Bypass": false,
+          "Result": "f"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "No Inspection"
+            ],
+            [
+              "..",
+              "No Inspection"
+            ],
+            [
+              "",
+              "No Inspection"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -99999.0,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.0,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": -99999.0,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": -99999.0,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": -1.0,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "PatMax Align Tool 1",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Temp GB 3",
+          "Index": 2,
+          "Ran": true,
+          "Passed": false,
+          "Debug": true,
+          "Bypass": false,
+          "Result": "f"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "No Inspection"
+            ],
+            [
+              "..",
+              "No Inspection"
+            ],
+            [
+              "",
+              "No Inspection"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -99999.0,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.0,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": -99999.0,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": -99999.0,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": -1.0,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "PatMax Align Tool 1",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Temp GB 4",
+          "Index": 3,
+          "Ran": true,
+          "Passed": false,
+          "Debug": true,
+          "Bypass": false,
+          "Result": "f"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "No Inspection"
+            ],
+            [
+              "..",
+              "No Inspection"
+            ],
+            [
+              "",
+              "No Inspection"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -99999.0,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.0,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": -99999.0,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": -99999.0,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": -1.0,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "PatMax Align Tool 1",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "F",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": false,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": false
+            }
+          ],
+          "Name": "Temp GB 5",
+          "Index": 4,
+          "Ran": true,
+          "Passed": false,
+          "Debug": true,
+          "Bypass": false,
+          "Result": "f"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN 8-11",
+              "0600,0800,0803,4003,4703,4903,5103,5804,5904,6004,9103,9503"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Scrim 1"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "QuickBuild Histogram Tool 1",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_Histogram",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Pab Scrim - LHD",
+          "Index": 5,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        }
+      ],
+      "Name": "06-Right Lower B Side",
+      "Index": 6,
+      "Passed": true,
+      "Result": "P",
+      "Bypassed": false,
+      "HasError": false,
+      "Trigger": "Normal",
+      "TriggerValue": true,
+      "Samples": []
+    },
+    {
+      "LoadSettings": [
+        [
+          "TimeoutBool",
+          "True"
+        ],
+        [
+          "Timeout",
+          "10000"
+        ],
+        [
+          "TriggerMode",
+          "Manual"
+        ],
+        [
+          "Output Pixel Format",
+          "grey8"
+        ],
+        [
+          "Transport Timeout",
+          "2000"
+        ],
+        [
+          "Packet Size",
+          "9000"
+        ],
+        [
+          "Latency Level",
+          "0"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "GevSCPD",
+          "0"
+        ],
+        [
+          "GevMCRC",
+          "10"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "OffsetY",
+          "0"
+        ],
+        [
+          "Width",
+          "2448"
+        ],
+        [
+          "Height",
+          "2048"
+        ],
+        [
+          "Rotation",
+          "0"
+        ]
+      ],
+      "PrimeSettings": [],
+      "RunSettings": [
+        [
+          "Exposure",
+          "10"
+        ],
+        [
+          "Contrast",
+          "0.1"
+        ],
+        [
+          "Brightness",
+          "0"
+        ]
+      ],
+      "ImageLocations": [
+        {
+          "CameraIndex": 7,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "ID",
+          "ImageType": "Png",
+          "FileDirectoryName": "D:\\Images\\2022-04-28\\1728833",
+          "FileName": "2022-04-28T144542_PASS_1728833_07-Left Lower B Side.Png",
+          "FileFullName": "D:\\Images\\2022-04-28\\1728833\\2022-04-28T144542_PASS_1728833_07-Left Lower B Side.Png"
+        },
+        {
+          "CameraIndex": 7,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image7.Jpeg",
+          "FileFullName": "D:\\HMI\\Image7.Jpeg"
+        },
+        {
+          "CameraIndex": 7,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": true,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image7_Overlay.Jpeg",
+          "FileFullName": "D:\\HMI\\Image7_Overlay.Jpeg"
+        }
+      ],
+      "Inspections": [],
+      "Name": "07-Left Lower B Side",
+      "Index": 7,
+      "Passed": true,
+      "Result": " ",
+      "Bypassed": false,
+      "HasError": false,
+      "Trigger": "Normal",
+      "TriggerValue": true,
+      "Samples": []
+    },
+    {
+      "LoadSettings": [
+        [
+          "TimeoutBool",
+          "True"
+        ],
+        [
+          "Timeout",
+          "10000"
+        ],
+        [
+          "TriggerMode",
+          "Manual"
+        ],
+        [
+          "Output Pixel Format",
+          "grey8"
+        ],
+        [
+          "Transport Timeout",
+          "2000"
+        ],
+        [
+          "Packet Size",
+          "9000"
+        ],
+        [
+          "Latency Level",
+          "0"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "GevSCPD",
+          "0"
+        ],
+        [
+          "GevMCRC",
+          "10"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "OffsetY",
+          "0"
+        ],
+        [
+          "Width",
+          "2448"
+        ],
+        [
+          "Height",
+          "2048"
+        ],
+        [
+          "Rotation",
+          "0"
+        ]
+      ],
+      "PrimeSettings": [],
+      "RunSettings": [
+        [
+          "Exposure",
+          "2.5"
+        ],
+        [
+          "Contrast",
+          "0.1"
+        ],
+        [
+          "Brightness",
+          "0"
+        ]
+      ],
+      "ImageLocations": [
+        {
+          "CameraIndex": 8,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "ID",
+          "ImageType": "Png",
+          "FileDirectoryName": "D:\\Images\\2022-04-28\\1728833",
+          "FileName": "2022-04-28T144542_PASS_1728833_08-Left.Png",
+          "FileFullName": "D:\\Images\\2022-04-28\\1728833\\2022-04-28T144542_PASS_1728833_08-Left.Png"
+        },
+        {
+          "CameraIndex": 8,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image8.Jpeg",
+          "FileFullName": "D:\\HMI\\Image8.Jpeg"
+        },
+        {
+          "CameraIndex": 8,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": true,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image8_Overlay.Jpeg",
+          "FileFullName": "D:\\HMI\\Image8_Overlay.Jpeg"
+        }
+      ],
+      "Inspections": [
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip A Pillar Left"
+            ],
+            [
+              "..",
+              "No Inspection"
+            ],
+            [
+              "",
+              "No Inspection"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Clip",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Clip - A Pillar",
+          "Index": 0,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [
+            [
+              "FGPN",
+              "*"
+            ]
+          ],
+          "ResultParameters": [
+            [
+              "Result",
+              "Grommet Round Body in White Left"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": 0.12387474673129931,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.89346635341644287,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 506.92915314907424,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 1645.2880850359038,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 0.99133838135422347,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Fixture",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "QuickBuild Histogram Tool 1",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_Histogram",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Grommit",
+          "Index": 1,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        }
+      ],
+      "Name": "08-Left",
+      "Index": 8,
+      "Passed": true,
+      "Result": "P",
+      "Bypassed": false,
+      "HasError": false,
+      "Trigger": "Rotated",
+      "TriggerValue": true,
+      "Samples": [
+        {
+          "Tools": [
+            "Locate"
+          ],
+          "RuntimeWorkspaceName": "IAC_IP_08-Left_2022-02-01",
+          "Name": "default"
+        }
+      ]
+    },
+    {
+      "LoadSettings": [
+        [
+          "TimeoutBool",
+          "True"
+        ],
+        [
+          "Timeout",
+          "10000"
+        ],
+        [
+          "TriggerMode",
+          "Manual"
+        ],
+        [
+          "Output Pixel Format",
+          "grey8"
+        ],
+        [
+          "Transport Timeout",
+          "2000"
+        ],
+        [
+          "Packet Size",
+          "9000"
+        ],
+        [
+          "Latency Level",
+          "0"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "GevSCPD",
+          "0"
+        ],
+        [
+          "GevMCRC",
+          "10"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "OffsetY",
+          "0"
+        ],
+        [
+          "Width",
+          "2448"
+        ],
+        [
+          "Height",
+          "2048"
+        ],
+        [
+          "Rotation",
+          "0"
+        ]
+      ],
+      "PrimeSettings": [],
+      "RunSettings": [
+        [
+          "Exposure",
+          "2.5"
+        ],
+        [
+          "Contrast",
+          "0.1"
+        ],
+        [
+          "Brightness",
+          "0"
+        ]
+      ],
+      "ImageLocations": [
+        {
+          "CameraIndex": 9,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "ID",
+          "ImageType": "Png",
+          "FileDirectoryName": "D:\\Images\\2022-04-28\\1728833",
+          "FileName": "2022-04-28T144542_PASS_1728833_09-Right.Png",
+          "FileFullName": "D:\\Images\\2022-04-28\\1728833\\2022-04-28T144542_PASS_1728833_09-Right.Png"
+        },
+        {
+          "CameraIndex": 9,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image9.Jpeg",
+          "FileFullName": "D:\\HMI\\Image9.Jpeg"
+        },
+        {
+          "CameraIndex": 9,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": true,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image9_Overlay.Jpeg",
+          "FileFullName": "D:\\HMI\\Image9_Overlay.Jpeg"
+        }
+      ],
+      "Inspections": [
+        {
+          "RunRestrictions": [],
+          "ResultParameters": [
+            [
+              "Result",
+              "Clip A Pillar Right"
+            ],
+            [
+              "..",
+              "No Inspection"
+            ],
+            [
+              "",
+              "No Inspection"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "Vidi Model Clip",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_Vidi",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Clip A - Pillar",
+          "Index": 0,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        },
+        {
+          "RunRestrictions": [],
+          "ResultParameters": [
+            [
+              "Result",
+              "Grommet Round Body in White Right"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {
+                "CheckAngle": false,
+                "Angle": -0.6749752043358308,
+                "AngleMax": 1.0,
+                "AngleMin": -1.0,
+                "CheckScore": true,
+                "Score": 0.96843826770782471,
+                "ScoreMin": 0.6,
+                "RequireFine": true,
+                "CheckXPos": false,
+                "XPos": 2132.890186108541,
+                "XPosMax": 1000.0,
+                "XPosMin": -1000.0,
+                "CheckYPos": false,
+                "YPos": 1814.6730158147266,
+                "YPosMax": 1000.0,
+                "YPosMin": -1000.0,
+                "CheckScale": false,
+                "Scale": 1.0000504945232913,
+                "ScaleMax": 1.1,
+                "ScaleMin": 0.9
+              },
+              "Name": "Fixture",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_PMAlign",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            },
+            {
+              "Data": {},
+              "Name": "Caliper",
+              "Index": 1,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_ToolBlock",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "Grommit",
+          "Index": 1,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        }
+      ],
+      "Name": "09-Right",
+      "Index": 9,
+      "Passed": true,
+      "Result": "P",
+      "Bypassed": false,
+      "HasError": false,
+      "Trigger": "Rotated",
+      "TriggerValue": true,
+      "Samples": [
+        {
+          "Tools": [
+            "Locate"
+          ],
+          "RuntimeWorkspaceName": "IAC_IP_09-Right_2022-02-01",
+          "Name": "default"
+        }
+      ]
+    },
+    {
+      "LoadSettings": [
+        [
+          "TimeoutBool",
+          "True"
+        ],
+        [
+          "Timeout",
+          "10000"
+        ],
+        [
+          "TriggerMode",
+          "Manual"
+        ],
+        [
+          "Output Pixel Format",
+          "grey8"
+        ],
+        [
+          "Transport Timeout",
+          "2000"
+        ],
+        [
+          "Packet Size",
+          "9000"
+        ],
+        [
+          "Latency Level",
+          "0"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "GevSCPD",
+          "0"
+        ],
+        [
+          "GevMCRC",
+          "10"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "OffsetY",
+          "0"
+        ],
+        [
+          "Width",
+          "2448"
+        ],
+        [
+          "Height",
+          "2048"
+        ],
+        [
+          "Rotation",
+          "0"
+        ]
+      ],
+      "PrimeSettings": [],
+      "RunSettings": [
+        [
+          "Exposure",
+          "5"
+        ],
+        [
+          "Contrast",
+          "0.25"
+        ],
+        [
+          "Brightness",
+          "0"
+        ]
+      ],
+      "ImageLocations": [
+        {
+          "CameraIndex": 10,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "ID",
+          "ImageType": "Png",
+          "FileDirectoryName": "D:\\Images\\2022-04-28\\1728833",
+          "FileName": "2022-04-28T144542_PASS_1728833_10-Left Stitch.Png",
+          "FileFullName": "D:\\Images\\2022-04-28\\1728833\\2022-04-28T144542_PASS_1728833_10-Left Stitch.Png"
+        },
+        {
+          "CameraIndex": 10,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image10.Jpeg",
+          "FileFullName": "D:\\HMI\\Image10.Jpeg"
+        },
+        {
+          "CameraIndex": 10,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": true,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image10_Overlay.Jpeg",
+          "FileFullName": "D:\\HMI\\Image10_Overlay.Jpeg"
+        }
+      ],
+      "Inspections": [
+        {
+          "RunRestrictions": [],
+          "ResultParameters": [
+            [
+              "Result",
+              "No Inspection"
+            ]
+          ],
+          "Tools": [
+            {
+              "Data": {},
+              "Name": "QuickBuild Histogram Tool 1",
+              "Index": 0,
+              "ToolType": "Indicon.IndToolProcess_QuickBuild_Histogram",
+              "Result": "P",
+              "GroupResult": " ",
+              "Groups": "",
+              "ToolPassed": true,
+              "ToolPassedIsGoodPart": true,
+              "GroupPassed": true,
+              "Passed": true
+            }
+          ],
+          "Name": "temp",
+          "Index": 0,
+          "Ran": true,
+          "Passed": true,
+          "Debug": false,
+          "Bypass": false,
+          "Result": "P"
+        }
+      ],
+      "Name": "10-Left Stitch",
+      "Index": 10,
+      "Passed": true,
+      "Result": "P",
+      "Bypassed": false,
+      "HasError": false,
+      "Trigger": "Rotated",
+      "TriggerValue": true,
+      "Samples": []
+    },
+    {
+      "LoadSettings": [
+        [
+          "TimeoutBool",
+          "True"
+        ],
+        [
+          "Timeout",
+          "10000"
+        ],
+        [
+          "TriggerMode",
+          "Manual"
+        ],
+        [
+          "Output Pixel Format",
+          "grey8"
+        ],
+        [
+          "Transport Timeout",
+          "2000"
+        ],
+        [
+          "Packet Size",
+          "9000"
+        ],
+        [
+          "Latency Level",
+          "0"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "GevSCPD",
+          "0"
+        ],
+        [
+          "GevMCRC",
+          "10"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "OffsetY",
+          "0"
+        ],
+        [
+          "Width",
+          "2448"
+        ],
+        [
+          "Height",
+          "2048"
+        ],
+        [
+          "Rotation",
+          "0"
+        ]
+      ],
+      "PrimeSettings": [],
+      "RunSettings": [
+        [
+          "Exposure",
+          "8"
+        ],
+        [
+          "Contrast",
+          "0.25"
+        ],
+        [
+          "Brightness",
+          "0"
+        ]
+      ],
+      "ImageLocations": [
+        {
+          "CameraIndex": 11,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "ID",
+          "ImageType": "Png",
+          "FileDirectoryName": "D:\\Images\\2022-04-28\\1728833",
+          "FileName": "2022-04-28T144542_PASS_1728833_11-Right Stitch.Png",
+          "FileFullName": "D:\\Images\\2022-04-28\\1728833\\2022-04-28T144542_PASS_1728833_11-Right Stitch.Png"
+        },
+        {
+          "CameraIndex": 11,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image11.Jpeg",
+          "FileFullName": "D:\\HMI\\Image11.Jpeg"
+        },
+        {
+          "CameraIndex": 11,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": true,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image11_Overlay.Jpeg",
+          "FileFullName": "D:\\HMI\\Image11_Overlay.Jpeg"
+        }
+      ],
+      "Inspections": [],
+      "Name": "11-Right Stitch",
+      "Index": 11,
+      "Passed": true,
+      "Result": " ",
+      "Bypassed": false,
+      "HasError": false,
+      "Trigger": "Rotated",
+      "TriggerValue": true,
+      "Samples": []
+    },
+    {
+      "LoadSettings": [
+        [
+          "TimeoutBool",
+          "True"
+        ],
+        [
+          "Timeout",
+          "10000"
+        ],
+        [
+          "TriggerMode",
+          "Manual"
+        ],
+        [
+          "Output Pixel Format",
+          "grey8"
+        ],
+        [
+          "Transport Timeout",
+          "2000"
+        ],
+        [
+          "Packet Size",
+          "9000"
+        ],
+        [
+          "Latency Level",
+          "0"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "GevSCPD",
+          "0"
+        ],
+        [
+          "GevMCRC",
+          "10"
+        ],
+        [
+          "OffsetX",
+          "0"
+        ],
+        [
+          "OffsetY",
+          "0"
+        ],
+        [
+          "Width",
+          "2448"
+        ],
+        [
+          "Height",
+          "2048"
+        ],
+        [
+          "Rotation",
+          "0"
+        ]
+      ],
+      "PrimeSettings": [],
+      "RunSettings": [
+        [
+          "Exposure",
+          "3"
+        ],
+        [
+          "Contrast",
+          "0.25"
+        ],
+        [
+          "Brightness",
+          "0"
+        ]
+      ],
+      "ImageLocations": [
+        {
+          "CameraIndex": 12,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "ID",
+          "ImageType": "Png",
+          "FileDirectoryName": "D:\\Images\\2022-04-28\\1728833",
+          "FileName": "2022-04-28T144542_PASS_1728833_12-Center Grommit.Png",
+          "FileFullName": "D:\\Images\\2022-04-28\\1728833\\2022-04-28T144542_PASS_1728833_12-Center Grommit.Png"
+        },
+        {
+          "CameraIndex": 12,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": false,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image12.Jpeg",
+          "FileFullName": "D:\\HMI\\Image12.Jpeg"
+        },
+        {
+          "CameraIndex": 12,
+          "InspectionIndex": -1,
+          "ToolIndex": -1,
+          "ResultsSaved": true,
+          "IncludeOverlay": true,
+          "StorageType": "Custom",
+          "ImageType": "Jpeg",
+          "FileDirectoryName": "D:\\HMI",
+          "FileName": "Image12_Overlay.Jpeg",
+          "FileFullName": "D:\\HMI\\Image12_Overlay.Jpeg"
+        }
+      ],
+      "Inspections": [],
+      "Name": "12-Center Grommit",
+      "Index": 12,
+      "Passed": true,
+      "Result": " ",
+      "Bypassed": false,
+      "HasError": false,
+      "Trigger": "Normal",
+      "TriggerValue": true,
+      "Samples": []
+    }
+  ],
+  "BuildDataEvents": [
+    "OPC"
+  ],
+  "TriggerEvents": [],
+  "ResultHandlers": [
+    "OPC",
+    "Website"
+  ]
+}
